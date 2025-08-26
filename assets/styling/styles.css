@@ -1,1 +1,79 @@
-/*# sourceMappingURL=styles.css.map */
+body {
+  background-color: #f1f2f6;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  margin-left: 15px;
+  margin-top: 30px;
+  padding: 6px 12px;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.5s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.button:hover {
+  color: #fff;
+}
+.button:hover:before {
+  width: 100%;
+}
+
+.button-1 {
+  border: 1px solid #5352ed;
+  color: #5352ed;
+}
+.button-1:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  transition: all 0.3s;
+  background-color: #5352ed;
+  z-index: -1;
+  transform: translate(-100%);
+}
+
+.button-2 {
+  border: 1px solid #1e272e;
+  color: #1e272e;
+}
+.button-2:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  transition: all 0.3s;
+  background-color: #1e272e;
+  z-index: -1;
+  transform: translate(-100%);
+}
+
+.button-3 {
+  border: 1px solid #f53b57;
+  color: #f53b57;
+}
+.button-3:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  transition: all 0.3s;
+  background-color: #f53b57;
+  z-index: -1;
+  transform: translate(-100%);
+}/*# sourceMappingURL=styles.css.map */
